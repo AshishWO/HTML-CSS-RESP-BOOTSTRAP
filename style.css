@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+    font-family: "kanit", sans-serif;
+}
+
+.star,
+.download-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.hr {
+    width: 100px;
+}
+
+.blue .star,
+.download:hover .download-icon {
+    filter: invert(90%);
+}
+
+.icons img {
+    height: 22px;
+    width: 22px;
+    text-align: center;
+}
+
+.icons {
+    height: 48px;
+    width: 48px;
+}
+
+.copyright {
+    background-color: #233140 !important;
+}
+
+.footer,
+.navbar {
+    background-color: #2C3E50 !important;
+}
+
+.start,
+.about,
+.send-btn {
+    background-color: #18BC9C !important;
+}
