@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
@@ -40,153 +40,156 @@
             <p tabindex="-1" style="width: 100%; display: inline-block;">15%</p>
         </div>
     </div>
-    <section class="p-5 text-bg-success start">
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
-            <div aria-hidden="true">
-                <div aria-hidden="false">
-                    <p>content</p>
-                </div>
-                <button tabindex="0">click here</button>
-            </div>
+    <main>
 
-            <img src="./assets/profile.png" class="m-4" alt="profile image" />
-            <h1 class="text-uppercase fs-1 fw-bolder">start</h1>
+        <section class="p-5 text-bg-success start">
+            <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+                <div aria-hidden="true">
+                    <div aria-hidden="false">
+                        <p>content</p>
+                    </div>
+                    <button tabindex="0">click here</button>
+                </div>
+
+                <img src="./assets/profile.png" class="m-4" alt="profile image" />
+                <h1 class="text-uppercase fs-1 fw-bolder">start</h1>
+                <div class="d-flex align-items-center gap-1 justify-content-center">
+                    <hr class="border border-white border-2 opacity-100 hr" />
+                    <img class="star" src="./assets//icons/star.png" alt="star" />
+                    <hr class="border border-white border-2 opacity-100 hr" />
+                </div>
+                <p class="text-center mt-3 fs-4">
+                    Web Developer - Graphic Artist - User Experience Designer
+                </p>
+            </div>
+        </section>
+
+        <section class="p-5 text-center text-bg-light">
+            <div class="container-fluid">
+                <h1 class="text-uppercase fs-1 fw-bolder">portfolio</h1>
+                <div class="d-flex align-items-center gap-1 justify-content-center blue">
+                    <hr class="border border-black border-2 opacity-100 hr" />
+                    <img class="star" src="./assets//icons/star.png" alt="star" />
+                    <hr class="border border-black border-2 opacity-100 hr" />
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-2 mb-5 gy-4">
+                    <img src="./assets/portfolio/cabin.png" alt="" class="col" />
+                    <img src="./assets/portfolio/cake.png" alt="" class="col" />
+                    <img src="./assets/portfolio/circus.png" alt="" class="col" />
+                    <img src="./assets/portfolio/game.png" alt="" class="col" />
+                    <img src="./assets/portfolio/safe.png" alt="" class="col" />
+                    <img src="./assets/portfolio/submarine.png" alt="" class="col" />
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="pt-5 pb-5 text-center text-bg-success d-flex flex-column align-items-center justify-content-center about">
+            <h1 class="text-uppercase fs-1 fw-bolder mt-3">about</h1>
             <div class="d-flex align-items-center gap-1 justify-content-center">
                 <hr class="border border-white border-2 opacity-100 hr" />
                 <img class="star" src="./assets//icons/star.png" alt="star" />
                 <hr class="border border-white border-2 opacity-100 hr" />
             </div>
-            <p class="text-center mt-3 fs-4">
-                Web Developer - Graphic Artist - User Experience Designer
-            </p>
-        </div>
-    </section>
+            <div class="row w-75 row-cols-1 row-cols-lg-2 gy-3 pt-5 pb-5">
+                <p class="col text-start fs-4">
+                    Freelancer is a free theme created by start. The download
+                    includes the complete source files including HTML, CSS, and
+                    JavaScript as well as optional LESS stylesheet for easy
+                    customization.
+                </p>
+                <p class="col text-start fs-4">
+                    Whether you're student looking to showcase your work, a
+                    professional looking to attract clients, or a graphic artist
+                    looking to share your projects, this template is the perfect
+                    starting point!
+                </p>
+            </div>
+            <a class="btn btn-outline-light btn-lg border-2 download d-flex justify-content-between gap-1 mb-4">
+                <img src="./assets/icons/download.png" class="download-icon" alt="download" />
+                Download Theme</a>
+        </section>
 
-    <section class="p-5 text-center text-bg-light">
-        <div class="container-fluid">
-            <h1 class="text-uppercase fs-1 fw-bolder">portfolio</h1>
+        <section
+            class="pt-5 pb-5 text-center text-bg-light d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-uppercase fs-1 fw-bolder mt-3">contact me</h1>
             <div class="d-flex align-items-center gap-1 justify-content-center blue">
                 <hr class="border border-black border-2 opacity-100 hr" />
                 <img class="star" src="./assets//icons/star.png" alt="star" />
                 <hr class="border border-black border-2 opacity-100 hr" />
             </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-2 mb-5 gy-4">
-                <img src="./assets/portfolio/cabin.png" alt="" class="col" />
-                <img src="./assets/portfolio/cake.png" alt="" class="col" />
-                <img src="./assets/portfolio/circus.png" alt="" class="col" />
-                <img src="./assets/portfolio/game.png" alt="" class="col" />
-                <img src="./assets/portfolio/safe.png" alt="" class="col" />
-                <img src="./assets/portfolio/submarine.png" alt="" class="col" />
+            <div class="container-fluid pt-5 pb-5">
+                <form class="row">
+                    <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
+                        <input type="text" id="name"
+                            class="form-control form-control-lg border-black rounded-0 shadow-none border-opacity-25 border-0 border-bottom border-top bg-body-tertiary"
+                            placeholder="Name" />
+                        <label for="name" class="form-label">Name</label>
+                    </div>
+
+                    <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
+                        <input type="email"
+                            class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
+                            placeholder="email" id="email" />
+                        <label for="email" class="form-label">Email Address</label>
+                    </div>
+                    <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
+                        <input type="number"
+                            class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
+                            placeholder="mobile" id="phone" />
+                        <label for="phone" class="form-label">Phone Number</label>
+                    </div>
+                    <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
+                        <textarea
+                            class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
+                            placeholder="message" id="message" style="height: 150px"></textarea>
+                        <!-- <label for="message">Message</label> -->
+                    </div>
+                    <!-- <label>Menu<input id="fname" type="text" name="fname" /></label> -->
+                    <div class="col-1 offset-0 offset-md-3 col-md-1">
+                        <button class="btn btn-success btn-lg mt-3 send-btn border-0">
+                            Send
+                        </button>
+                    </div>
+                </form>
             </div>
-        </div>
-    </section>
+            <div class="container-fluid pt-5 pb-5">
+                <form class="row">
+                    <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
+                        <input type="text" id="name"
+                            class="form-control form-control-lg border-black rounded-0 shadow-none border-opacity-25 border-0 border-bottom border-top bg-body-tertiary"
+                            placeholder="Name" />
+                        <label for="name" class="form-label">Name</label>
+                    </div>
 
-    <section
-        class="pt-5 pb-5 text-center text-bg-success d-flex flex-column align-items-center justify-content-center about">
-        <h1 class="text-uppercase fs-1 fw-bolder mt-3">about</h1>
-        <div class="d-flex align-items-center gap-1 justify-content-center">
-            <hr class="border border-white border-2 opacity-100 hr" />
-            <img class="star" src="./assets//icons/star.png" alt="star" />
-            <hr class="border border-white border-2 opacity-100 hr" />
-        </div>
-        <div class="row w-75 row-cols-1 row-cols-lg-2 gy-3 pt-5 pb-5">
-            <p class="col text-start fs-4">
-                Freelancer is a free theme created by start. The download
-                includes the complete source files including HTML, CSS, and
-                JavaScript as well as optional LESS stylesheet for easy
-                customization.
-            </p>
-            <p class="col text-start fs-4">
-                Whether you're student looking to showcase your work, a
-                professional looking to attract clients, or a graphic artist
-                looking to share your projects, this template is the perfect
-                starting point!
-            </p>
-        </div>
-        <a class="btn btn-outline-light btn-lg border-2 download d-flex justify-content-between gap-1 mb-4">
-            <img src="./assets/icons/download.png" class="download-icon" alt="download" />
-            Download Theme</a>
-    </section>
-
-    <section class="pt-5 pb-5 text-center text-bg-light d-flex flex-column align-items-center justify-content-center">
-        <h1 class="text-uppercase fs-1 fw-bolder mt-3">contact me</h1>
-        <div class="d-flex align-items-center gap-1 justify-content-center blue">
-            <hr class="border border-black border-2 opacity-100 hr" />
-            <img class="star" src="./assets//icons/star.png" alt="star" />
-            <hr class="border border-black border-2 opacity-100 hr" />
-        </div>
-        <div class="container-fluid pt-5 pb-5">
-            <form class="row">
-                <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
-                    <input type="text" id="name"
-                        class="form-control form-control-lg border-black rounded-0 shadow-none border-opacity-25 border-0 border-bottom border-top bg-body-tertiary"
-                        placeholder="Name" />
-                    <label for="name" class="form-label">Name</label>
-                </div>
-
-                <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
-                    <input type="email"
-                        class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
-                        placeholder="email" id="email" />
-                    <label for="email" class="form-label">Email Address</label>
-                </div>
-                <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
-                    <input type="number"
-                        class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
-                        placeholder="mobile" id="phone" />
-                    <label for="phone" class="form-label">Phone Number</label>
-                </div>
-                <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
-                    <textarea
-                        class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
-                        placeholder="message" id="message" style="height: 150px"></textarea>
-                    <!-- <label for="message">Message</label> -->
-                </div>
-                <!-- <label>Menu<input id="fname" type="text" name="fname" /></label> -->
-                <div class="col-1 offset-0 offset-md-3 col-md-1">
-                    <button class="btn btn-success btn-lg mt-3 send-btn border-0">
-                        Send
-                    </button>
-                </div>
-            </form>
-        </div>
-        <div class="container-fluid pt-5 pb-5">
-            <form class="row">
-                <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
-                    <input type="text" id="name"
-                        class="form-control form-control-lg border-black rounded-0 shadow-none border-opacity-25 border-0 border-bottom border-top bg-body-tertiary"
-                        placeholder="Name" />
-                    <label for="name" class="form-label">Name</label>
-                </div>
-
-                <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
-                    <input type="email"
-                        class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
-                        placeholder="email" id="email" />
-                    <label for="email" class="form-label">Email Address</label>
-                </div>
-                <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
-                    <input type="number"
-                        class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
-                        placeholder="mobile" id="phone" />
-                    <label for="phone" class="form-label">Phone Number</label>
-                </div>
-                <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
-                    <textarea
-                        class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
-                        placeholder="message" id="message" style="height: 150px"></textarea>
-                    <!-- <label for="message">Message</label> -->
-                </div>
-                <!-- <label>Menu<input id="fname" type="text" name="fname" /></label> -->
-                <div class="col-1 offset-0 offset-md-3 col-md-1">
-                    <button class="btn btn-success btn-lg mt-3 send-btn border-0">
-                        Send
-                    </button>
-                </div>
-            </form>
-        </div>
-    </section>
-
+                    <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
+                        <input type="email"
+                            class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
+                            placeholder="email" id="email" />
+                        <label for="email" class="form-label">Email Address</label>
+                    </div>
+                    <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
+                        <input type="number"
+                            class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
+                            placeholder="mobile" id="phone" />
+                        <label for="phone" class="form-label">Phone Number</label>
+                    </div>
+                    <div class="form-floating col-12 offset-0 offset-md-3 col-md-6">
+                        <textarea
+                            class="form-control form-control-lg border-black rounded-0 shadow-none border-0 border-bottom border-opacity-25 bg-body-tertiary"
+                            placeholder="message" id="message" style="height: 150px"></textarea>
+                        <!-- <label for="message">Message</label> -->
+                    </div>
+                    <!-- <label>Menu<input id="fname" type="text" name="fname" /></label> -->
+                    <div class="col-1 offset-0 offset-md-3 col-md-1">
+                        <button class="btn btn-success btn-lg mt-3 send-btn border-0">
+                            Send
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
     <footer class="container-fluid p-5 text-bg-dark text-center row m-0 row-cols-1 row-cols-lg-3 footer">
         <div
             class="container col d-flex flex-column gap-3 align-items-center justify-content-between justify-content-md-around">
@@ -232,6 +235,7 @@
     <section class="text-bg-dark text-center m-0 p-0 copyright">
         <p class="fs-6 m-0 p-4">Copyright © Your Website 2016</p>
     </section>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
